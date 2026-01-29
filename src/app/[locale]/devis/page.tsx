@@ -1,9 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import styles from './DevisPage.module.css';
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
 
 export default function DevisPage() {
     const t = useTranslations('devis');
@@ -25,6 +27,7 @@ export default function DevisPage() {
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+    const [errorMessage, setErrorMessage] = useState<string | null>(null);
     const [focusedField, setFocusedField] = useState<string | null>(null);
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -53,12 +56,29 @@ export default function DevisPage() {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulation d'envoi
-        await new Promise(resolve => setTimeout(resolve, 1500));
+        try {
+            const res = await fetch('/api/lead', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            });
 
-        // Pour l'instant, on simule un succès
-        setSubmitStatus('success');
-        setIsSubmitting(false);
+            const data = await res.json();
+            if (res.ok && data.ok) {
+                setSubmitStatus('success');
+                setErrorMessage(null);
+            } else {
+                console.error('Lead submit error', data);
+                setSubmitStatus('error');
+                setErrorMessage(data && data.message ? String(data.message) : 'Erreur');
+            }
+        } catch (err) {
+            console.error('Submit failed', err);
+            setSubmitStatus('error');
+            setErrorMessage(String(err));
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     // Date minimum = aujourd'hui
@@ -78,6 +98,28 @@ export default function DevisPage() {
         { value: 'assurances', label: t('form.serviceOptions.assurances') },
     ];
 
+    // initialize flatpickr on mount
+    useEffect(() => {
+        const el = document.getElementById('devis-date-input') as HTMLInputElement | null;
+        if (!el) return;
+
+        const fp = flatpickr(el, {
+            dateFormat: 'Y-m-d',
+            defaultDate: formData.date || undefined,
+            minDate: today,
+            maxDate: '2030-12-31',
+            wrap: false,
+            onChange: (selectedDates: Date[], dateStr: string) => {
+                setFormData(prev => ({ ...prev, date: dateStr }));
+            }
+        });
+
+        return () => {
+            try { fp.destroy(); } catch (e) { /* noop */ }
+        };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
     if (submitStatus === 'success') {
         return (
             <div className={styles.devisPage}>
@@ -94,14 +136,7 @@ export default function DevisPage() {
                     <p className={styles.successMessage}>
                         Nous avons bien reçu votre demande et vous recontacterons très rapidement.
                     </p>
-                    <div className={styles.successDetails}>
-                        <div className={styles.successDetailItem}>
-                            <span>Confirmation envoyée à {formData.email}</span>
-                        </div>
-                        <div className={styles.successDetailItem}>
-                            <span>Réponse sous 24-48h</span>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         );
@@ -295,22 +330,23 @@ export default function DevisPage() {
                             </div>
                         </div>
 
-                        <div className={`${styles.inputGroup} ${styles.fullWidth} ${focusedField === 'date' ? styles.focused : ''}`}>
-                            <label className={styles.label}>
-                                {t('form.date')}
-                            </label>
-                            <input
-                                type="date"
-                                name="date"
-                                value={formData.date}
-                                onChange={handleChange}
-                                onFocus={() => setFocusedField('date')}
-                                onBlur={() => setFocusedField(null)}
-                                min={today}
-                                max="2030-12-31"
-                                className={styles.input}
-                            />
-                        </div>
+                                        <div className={`${styles.inputGroup} ${styles.fullWidth} ${focusedField === 'date' ? styles.focused : ''}`}>
+                                            <label className={styles.label}>
+                                                {t('form.date')}
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="date"
+                                                ref={(el) => { if (el && !el.getAttribute('data-fp-initialized')) el.setAttribute('data-fp-initialized', 'true'); }}
+                                                defaultValue={formData.date}
+                                                onFocus={() => setFocusedField('date')}
+                                                onBlur={() => setFocusedField(null)}
+                                                placeholder="YYYY-MM-DD"
+                                                className={styles.input + ' fp-input'}
+                                                id="devis-date-input"
+                                                readOnly={false}
+                                            />
+                                        </div>
                     </div>
 
                     {/* Section: Détails du projet */}
@@ -376,6 +412,11 @@ export default function DevisPage() {
                         <p className={styles.submitNote}>
                             Vos données sont sécurisées et ne seront jamais partagées.
                         </p>
+                        {submitStatus === 'error' && (
+                            <p className={styles.errorMessage} role="alert">
+                                {errorMessage ? errorMessage : t('form.error')}
+                            </p>
+                        )}
                     </div>
                 </form>
             </div>

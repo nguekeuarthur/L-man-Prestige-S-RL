@@ -114,7 +114,7 @@ export default function AboutPage() {
             {/* Stats Section */}
             <section className="relative py-20 border-y border-white/5">
                 <div className="max-w-[1400px] mx-auto px-6 sm:px-8 md:px-16 lg:px-20">
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 md:-ml-16 lg:-ml-24">
                         {stats.map((stat, index) => (
                             <div key={index} className="text-center group">
                                 <div className="text-[#C5A059] text-4xl sm:text-5xl md:text-6xl font-bold mb-2 group-hover:scale-110 transition-transform duration-300">

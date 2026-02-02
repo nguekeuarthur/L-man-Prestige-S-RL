@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import Button from '@/components/atoms/Button';
 import styles from '../ServiceHero.module.css';
@@ -61,6 +62,16 @@ export default function AdministratifServicePage() {
     return (
         <div>
             <section className={styles.heroSection}>
+                <div className={styles.heroBackgroundImage}>
+                    <Image
+                        src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1920&q=80"
+                        alt="Accompagnement administratif"
+                        fill
+                        priority
+                        style={{ objectFit: 'cover' }}
+                    />
+                </div>
+                <div className={styles.heroOverlay}></div>
                 <div className={styles.heroOrb1}></div>
                 <div className={styles.heroOrb2}></div>
                 <div className={styles.heroContent}>

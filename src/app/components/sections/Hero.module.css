@@ -1,11 +1,11 @@
 .heroSection {
   position: relative;
   width: 100%;
-  min-height: 50vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: visible;
+  overflow: hidden;
   padding-bottom: 3rem;
 }
 
@@ -15,12 +15,21 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #0a2a43 0%, #1a4a63 50%, #0a2a43 100%),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(197,160,89,0.1)" stroke-width="1"/></pattern></defs><rect width="1200" height="600" fill="%230A2A43"/><rect width="1200" height="600" fill="url(%23grid)"/></svg>');
-  background-size: cover, 40px 40px;
-  background-position: center, 0 0;
-  background-attachment: fixed;
   z-index: 1;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.backgroundImage.active {
+  opacity: 1;
 }
 
 .heroOverlay {
@@ -31,9 +40,9 @@
   height: 100%;
   background: linear-gradient(
     180deg,
-    rgba(10, 42, 67, 0.15) 0%,
-    rgba(10, 42, 67, 0.25) 50%,
-    rgba(10, 42, 67, 0.35) 100%
+    rgba(10, 42, 67, 0.65) 0%,
+    rgba(10, 42, 67, 0.75) 50%,
+    rgba(10, 42, 67, 0.85) 100%
   );
   z-index: 2;
 }
@@ -180,10 +189,51 @@
 
 @media (min-width: 1024px) {
   .heroSection {
-    min-height: 50vh;
+    min-height: 80vh;
+  }
+}
+
+/* Image Indicators */
+.imageIndicators {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.75rem;
+  z-index: 10;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid rgba(197, 160, 89, 0.6);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.indicator:hover {
+  border-color: var(--color-accent);
+  transform: scale(1.2);
+}
+
+.indicatorActive {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  transform: scale(1.1);
+}
+
+@media (max-width: 640px) {
+  .imageIndicators {
+    bottom: 1rem;
+    gap: 0.5rem;
   }
 
-  .heroBackground {
-    background-attachment: fixed;
+  .indicator {
+    width: 10px;
+    height: 10px;
   }
 }

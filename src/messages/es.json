@@ -1,0 +1,378 @@
+{
+    "homepage": {
+        "services": {
+            "highlight": {
+                "title": "Nuestros Servicios Principales",
+                "subtitle": "Descubra nuestros 4 servicios principales para apoyar todos sus proyectos en Suiza francófona.",
+                "discover": "Descubrir",
+                "view_all": "Ver todos los servicios",
+                "travaux_title": "Obras y Renovación",
+                "travaux_desc": "Renovación completa o parcial de su propiedad.",
+                "nettoyage_title": "Limpieza Profesional",
+                "nettoyage_desc": "Limpieza de final de alquiler, limpieza de obra y mantenimiento regular.",
+                "demenagement_title": "Mudanzas y Logística",
+                "demenagement_desc": "Mudanzas privadas y profesionales, llave en mano.",
+                "relocation_title": "Reubicación y Búsqueda de Vivienda",
+                "relocation_desc": "Conectándole con su hogar ideal."
+            }
+        },
+        "process": {
+            "title": "Cómo Funciona",
+            "subtitle": "Descubre nuestro proceso en 4 pasos simples y transparentes.",
+            "step1_title": "Póngase en Contacto",
+            "step1_desc": "Llame, envíe un correo o use WhatsApp para describir su proyecto.",
+            "step2_title": "Consulta",
+            "step2_desc": "Nuestros expertos escuchan sus necesidades y definen las mejores soluciones.",
+            "step3_title": "Presupuesto",
+            "step3_desc": "Reciba un presupuesto claro y personalizado, sin compromiso.",
+            "step4_title": "Ejecución",
+            "step4_desc": "Realizamos su proyecto con calidad y puntualidad."
+        }
+    },
+    "header": {
+        "properties": "Propiedades",
+        "services": "Servicios",
+        "about": "Acerca de",
+        "contact": "Presupuesto"
+    },
+    "nav": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "travaux": "Construcción y Renovación",
+        "nettoyage": "Limpieza Profesional",
+        "demenagement": "Mudanzas y Logística",
+        "relocation": "Relocalización",
+        "souslocation": "Subarrendamiento",
+        "administratif": "Apoyo Administrativo",
+        "assurances": "Seguros y Previsión",
+        "appartements": "Propiedades",
+        "about": "Acerca de",
+        "devis": "Solicitar Presupuesto"
+    },
+    "properties": {
+        "title": "Propiedades Disponibles",
+        "subtitle": "Encuentre su próximo hogar en la región del Lago Lemán. Contáctenos directamente para organizar una visita.",
+        "sale": "Venta",
+        "rent": "Alquiler",
+        "sqm": "m²",
+        "rooms": "Habitaciones",
+        "baths": "Baños",
+        "viewDetails": "Ver Detalles",
+        "featured": "Nuevo",
+        "noResults": "Ninguna propiedad coincide con sus criterios.",
+        "status": {
+            "available": "Disponible",
+            "reserved": "Reservado",
+            "rented": "Alquilado"
+        },
+        "contact": {
+            "whatsapp": "WhatsApp",
+            "call": "Llamar",
+            "visit": "Solicitar una Visita"
+        },
+        "filters": {
+            "rooms": "Número de Habitaciones",
+            "budget": "Presupuesto Máximo",
+            "city": "Ciudad / Área",
+            "all": "Todos"
+        }
+    },
+    "filters": {
+        "transaction": "Tipo de Transacción",
+        "sale": "Compra",
+        "rent": "Alquiler",
+        "all": "Todos",
+        "location": "Ubicación",
+        "locationPlaceholder": "Ginebra, Montreux, Lausana...",
+        "budget": "Presupuesto",
+        "budgetMin": "Presupuesto Mínimo",
+        "budgetMax": "Presupuesto Máximo"
+    },
+    "services": {
+        "title": "Nuestros Servicios",
+        "subtitle": "Apoyo integral para todos sus proyectos en Suiza francófona.",
+        "discover": "Descubrir el Servicio",
+        "allServices": "Todos Nuestros Servicios",
+        "cta_label": "Póngase en contacto",
+        "cta_question": "¿Tiene un proyecto? ¿Una pregunta?",
+        "cta_description": "Contáctenos para obtener un presupuesto gratuito y personalizado. Responderemos dentro de 24 horas.",
+        "cta_button": "Presupuesto Gratuito",
+        "search": {
+            "title": "Búsqueda de Propiedades",
+            "subtitle": "Su cazador de propiedades personal en Ginebra.",
+            "description": "Buscamos activamente las mejores oportunidades para usted — en mercado abierto y fuera del mercado — combinando prospección, preselección rigurosa y validación administrativa. Ahorra tiempo y accede a propiedades raramente publicadas.",
+            "features": {
+                "network": "Acceso exclusivo al mercado 'fuera del mercado'",
+                "selection": "Preselección rigurosa según sus criterios",
+                "negotiation": "Apoyo en negociación y preparación de expediente"
+            },
+            "cta": "Iniciar Mi Búsqueda"
+        },
+        "appartements": {
+            "title": "Propiedades",
+            "subtitle": "Consulte nuestro catálogo de propiedades disponibles.",
+            "description": "Listados actualizados: apartamentos en alquiler y venta en la región del Lago Lemán. Contáctenos directamente para organizar una visita u obtener más información.",
+            "features": {
+                "listing": "Listados verificados",
+                "contact": "Contacto directo para visitas",
+                "status": "Estados: Disponible / Reservado / Alquilado"
+            },
+            "cta": "Ver Anuncios"
+        },
+        "travaux": {
+            "title": "Construcción y Renovación",
+            "subtitle": "Renovación completa o parcial de su propiedad.",
+            "description": "Gestionamos su proyecto de A a Z: evaluación de necesidades, selección de artesanos locales certificados, planificación y control de calidad. Ya sea una renovación completa, una renovación estructural o un diseño interior, garantizamos un resultado cuidadoso y respeto de plazos.",
+            "features": {
+                "renovation": "Renovaciones mayores y trabajos en muros medianeros",
+                "peinture": "Acabados de pintura premium y revestimientos murales",
+                "menuiserie": "Muebles a medida y carpintería",
+                "plomberia": "Plomería, electricidad y cumplimiento normativo",
+                "coordination": "Coordinación completa del proyecto"
+            },
+            "cta": "Solicitar Presupuesto de Construcción"
+        },
+        "nettoyage": {
+            "title": "Limpieza Profesional",
+            "subtitle": "Limpieza de fin de arrendamiento, fin de obra y mantenimiento regular.",
+            "description": "Equipos capacitados y equipo profesional para una limpieza impecable: fin de arrendamiento garantizado, limpieza post-obra con eliminación de escombros, mantenimiento periódico de edificios y limpieza de ventanas. Utilizamos productos ecológicos bajo solicitud.",
+            "features": {
+                "finbail": "Limpieza de fin de arrendamiento con lista de verificación",
+                "finchantier": "Limpieza post-obra y eliminación de escombros",
+                "vitres": "Limpieza y desengrasado de ventanas y fachadas",
+                "entretien": "Contratos de mantenimiento regular personalizados",
+                "desinfection": "Desinfección profesional y tratamiento sanitario"
+            },
+            "cta": "Solicitar Presupuesto de Limpieza"
+        },
+        "demenagement": {
+            "title": "Mudanzas y Logística",
+            "subtitle": "Mudanzas privadas y profesionales, llave en mano.",
+            "description": "Organización completa y sin estrés de su mudanza: estimación, embalaje profesional, transporte seguro e instalación en su nueva ubicación. Ofrecemos opciones de seguro, almacenamiento temporal y manejo de artículos voluminosos.",
+            "features": {
+                "prive": "Soluciones para particulares y empresas",
+                "emballage": "Embalaje profesional y protección personalizada",
+                "montage": "Desmontaje/remontaje y optimización de espacio",
+                "miseenplace": "Instalación y organización del espacio en destino",
+                "debarras": "Desescombro, reciclaje y eliminación",
+                "dechetterie": "Transporte controlado a centro de disposición",
+                "cleenmain": "Servicio llave en mano con seguro"
+            },
+            "cta": "Solicitar Presupuesto de Mudanza"
+        },
+        "relocation": {
+            "title": "Relocalización y Búsqueda de Vivienda",
+            "subtitle": "Conectándole para encontrar su hogar ideal.",
+            "description": "Apoyo integral para personas en transición: selección de áreas, preparación de expediente, reuniones con propietarios y seguimiento administrativo. Facilitamos la instalación rápida y tranquila en Suiza francófona.",
+            "features": {
+                "recherche": "Búsqueda dirigida de alquiler/compra adaptada a su perfil",
+                "preselection": "Visitas preseleccionadas según sus prioridades",
+                "visites": "Organización y acompañamiento durante visitas",
+                "dossier": "Preparación y validación de expedientes de arrendamiento",
+                "miseenrelation": "Conexión con propietarios y administradores",
+                "coordination": "Coordinación logística para entrada/salida"
+            },
+            "cta": "Iniciar Mi Búsqueda",
+            "disclaimer": "Solo servicios de referencia y asistencia administrativa. Léman Prestige Sàrl no actúa como administrador de bienes y no firma contratos de arrendamiento/subarrendamiento en nombre de las partes."
+        },
+        "souslocation": {
+            "title": "Subarrendamiento",
+            "subtitle": "Gestión de subarrendamiento por cuenta de terceros.",
+            "description": "Gestión integral del subarrendamiento: búsqueda de inquilinos confiables, verificación de expedientes, obtención de autorización de propietarios y organización de entrega de llaves. Nos encargamos de la comunicación y seguimiento para minimizar sus formalidades.",
+            "features": {
+                "recherche": "Selección rigurosa de subarrendatarios",
+                "visites": "Organización y gestión de visitas",
+                "autorisation": "Asistencia para obtener autorización de propietario/administrador",
+                "contrat": "Asistencia en redacción del contrato de subarrendamiento",
+                "coordination": "Coordinación de limpieza y entrega de llaves"
+            },
+            "cta": "Solicitar Subarrendamiento",
+            "disclaimer": "Solo servicios de referencia y asistencia administrativa. Léman Prestige Sàrl no actúa como administrador de bienes y no firma contratos de arrendamiento/subarrendamiento en nombre de las partes."
+        },
+        "administratif": {
+            "title": "Apoyo Administrativo",
+            "subtitle": "Asistencia para sus trámites administrativos en Suiza.",
+            "description": "Apoyo personalizado para todos los trámites administrativos relacionados con la mudanza y vivienda: preparación de expedientes, cartas oficiales, inscripciones en servicios y seguimiento de procedimientos. Simplificamos los trámites para particulares y empresas.",
+            "features": {
+                "logement": "Trámites relacionados con arrendamiento y vivienda",
+                "services": "Inscripción/desinscripción ante autoridades",
+                "suivi": "Seguimiento de solicitudes y recordatorios dedicados",
+                "documents": "Organización y verificación de documentos justificativos",
+                "assistance": "Apoyo personalizado para cada paso"
+            },
+            "cta": "Solicitar Apoyo Administrativo"
+        },
+        "assurances": {
+            "title": "Seguros y Previsión",
+            "subtitle": "Conexión con nuestros asociados aseguradores.",
+            "description": "Facilitamos la conexión con asociados aseguradores para soluciones de salud, complementarias y de previsión. Nuestro rol: comparar opciones, explicar implicaciones y guiarle hacia la oferta más adecuada para su situación.",
+            "features": {
+                "lamal": "Orientación de seguros de salud y complementarios",
+                "prevoyance": "Consejos sobre previsión y 3er pilar",
+                "comparaison": "Comparación objetiva a través de asociados seleccionados",
+                "accompagnement": "Asistencia administrativa para suscripciones"
+            },
+            "benefits_title": "Nuestros Compromisos",
+            "benefits_subtitle": "Servicios de seguros claros, competitivos y confiables.",
+            "benefit_couverture_title": "Cobertura a Medida",
+            "benefit_couverture_desc": "Ofertas adaptadas a su perfil y presupuesto.",
+            "benefit_transparence_title": "Transparencia",
+            "benefit_transparence_desc": "Explicaciones claras de coberturas y exclusiones.",
+            "benefit_rapidite_title": "Rapidez",
+            "benefit_rapidite_desc": "Procesamiento rápido de solicitudes y asistencia en reclamaciones.",
+            "benefit_accompagnement_title": "Acompañamiento",
+            "benefit_accompagnement_desc": "Un asesor dedicado para guiarle en cada paso.",
+            "cta": "Solicitar una Referencia",
+            "cta_title": "¿Necesita Asesoría en Seguros?",
+            "cta_description": "Hable con un experto para comparar las mejores opciones y optimizar sus primas.",
+            "disclaimer": "Solo referencias. Léman Prestige Sàrl no realiza ninguna actividad de corretaje o asesoría de seguros regulada."
+        }
+    },
+    "hero": {
+        "title": "Léman Prestige SÀRL",
+        "subtitle": "Servicios de bienes raíces, mudanzas y apoyo administrativo en Ginebra y la región del Lago Lemán",
+        "cta": "Solicitar Presupuesto"
+    },
+    "cta": {
+        "call": "Llamar",
+        "whatsapp": "WhatsApp",
+        "devis": "Presupuesto Gratuito",
+        "phone": "+41 XX XXX XX XX"
+    },
+    "devis": {
+        "title": "Solicitar un Presupuesto",
+        "subtitle": "Complete el formulario a continuación y nos pondremos en contacto dentro de 24 horas hábiles.",
+        "form": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo Electrónico",
+            "phone": "Teléfono",
+            "service": "Tipo de Servicio",
+            "serviceOptions": {
+                "select": "Seleccione un servicio",
+                "travaux": "Construcción y Renovación",
+                "nettoyageBail": "Limpieza de Fin de Arrendamiento",
+                "nettoyageChantier": "Limpieza de Fin de Obra",
+                "vitres": "Limpieza de Ventanas",
+                "demenagement": "Mudanza",
+                "debarras": "Desescombro",
+                "relocation": "Relocalización",
+                "souslocation": "Subarrendamiento",
+                "administratif": "Apoyo Administrativo",
+                "assurances": "Referencia de Seguros"
+            },
+            "address": "Dirección",
+            "city": "Ciudad",
+            "date": "Fecha Preferida",
+            "description": "Descripción de sus necesidades",
+            "photos": "Fotos (opcional)",
+            "photosHelp": "Formatos aceptados: JPG, PNG, PDF. Máximo 10MB por archivo.",
+            "privacy": "Acepto la política de privacidad y el procesamiento de mis datos personales.",
+            "submit": "Enviar Mi Solicitud",
+            "success": "¡Solicitud enviada! Nos pondremos en contacto dentro de 24 horas hábiles.",
+            "error": "Ocurrió un error. Por favor, inténtelo de nuevo."
+        }
+    },
+    "relocationForm": {
+        "title": "Búsqueda de Apartamento",
+        "subtitle": "Complete este formulario con sus criterios y documentos. Nos pondremos en contacto dentro de 24 horas hábiles.",
+        "sections": {
+            "contact": "Información de Contacto",
+            "criteria": "Criterios de Búsqueda",
+            "documents": "Documentos Requeridos"
+        },
+        "form": {
+            "firstName": "Nombre",
+            "lastName": "Apellido",
+            "email": "Correo Electrónico",
+            "phone": "Teléfono",
+            "nationality": "Nacionalidad / Tipo de Permiso",
+            "apartmentType": "Tipo de Vivienda",
+            "typeOptions": {
+                "studio": "Estudio",
+                "2p": "2 Habitaciones",
+                "3p": "3 Habitaciones",
+                "4p": "4 Habitaciones",
+                "5p": "5+ Habitaciones"
+            },
+            "zones": "Área(s) Preferida(s)",
+            "budget": "Presupuesto Máximo (incluido gastos)",
+            "moveInDate": "Fecha de Entrada Deseada",
+            "furnished": "Amueblado",
+            "furnishedOptions": {
+                "yes": "Sí",
+                "no": "No",
+                "indifferent": "Sin Preferencia"
+            },
+            "options": "Opciones Deseadas",
+            "balcony": "Balcón",
+            "parking": "Estacionamiento",
+            "pets": "Se Aceptan Mascotas",
+            "occupants": "Número de Ocupantes",
+            "comments": "Comentarios",
+            "documents": {
+                "id": "Documento de Identidad (requerido)",
+                "poursuites": "Certificado de No Persecución (requerido)",
+                "salaires": "Últimas 3 Nóminas (requerido)",
+                "optional": "Documentos Opcionales"
+            },
+            "documentsHelp": "Formatos aceptados: PDF, JPG, PNG. Máximo 10MB por archivo.",
+            "privacy": "Acepto la política de privacidad y el procesamiento de mis datos personales.",
+            "submit": "Enviar Mi Solicitud",
+            "success": "¡Solicitud recibida! Nos pondremos en contacto dentro de 24 horas hábiles.",
+            "error": "Ocurrió un error. Por favor, inténtelo de nuevo."
+        }
+    },
+    "about": {
+        "title": "Acerca de Léman Prestige",
+        "subtitle": "Su socio de confianza en Ginebra",
+        "description": "Léman Prestige Sàrl ofrece servicios de referencia y apoyo administrativo en la región del Lago Lemán. Nuestro equipo le apoya en sus proyectos inmobiliarios, mudanzas y trámites administrativos.",
+        "values": {
+            "title": "Nuestros Valores",
+            "proximity": {
+                "title": "Proximidad",
+                "description": "Un contacto único basado en Ginebra, disponible y receptivo."
+            },
+            "quality": {
+                "title": "Calidad",
+                "description": "Asociados seleccionados por su profesionalismo."
+            },
+            "transparency": {
+                "title": "Transparencia",
+                "description": "Presupuestos claros y servicios detallados."
+            }
+        }
+    },
+    "footer": {
+        "services": "Servicios",
+        "sales": "Construcción y Renovación",
+        "rental": "Limpieza",
+        "management": "Mudanzas",
+        "relocation": "Relocalización",
+        "about": "Acerca de",
+        "ourStory": "Nuestra Historia",
+        "team": "Equipo",
+        "careers": "Contacto",
+        "legal": "Legal",
+        "terms": "Términos",
+        "privacy": "Privacidad",
+        "legalNotice": "Aviso Legal",
+        "contact": "Contacto",
+        "email": "Correo Electrónico",
+        "phone": "Teléfono",
+        "address": "Dirección",
+        "followUs": "Síguenos",
+        "copyright": "© {year} Léman Prestige SÀRL. Todos los derechos reservados.",
+        "disclaimer": "Léman Prestige Sàrl ofrece servicios de referencia y apoyo administrativo. Cualquier actividad que requiera autorización es realizada exclusivamente por asociados autorizados, en su caso."
+    },
+    "legal": {
+        "mentions": "Aviso Legal",
+        "privacy": "Política de Privacidad",
+        "cookies": "Política de Cookies"
+    },
+    "stickyCta": {
+        "call": "Llamar",
+        "whatsapp": "WhatsApp",
+        "devis": "Presupuesto"
+    }
+}

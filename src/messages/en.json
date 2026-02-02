@@ -1,0 +1,378 @@
+{
+    "homepage": {
+        "services": {
+            "highlight": {
+                "title": "Our Main Services",
+                "subtitle": "Discover our 4 flagship services to support all your projects in French-speaking Switzerland.",
+                "discover": "Discover",
+                "view_all": "View all services",
+                "travaux_title": "Works & Renovation",
+                "travaux_desc": "Complete or partial renovation of your property.",
+                "nettoyage_title": "Professional Cleaning",
+                "nettoyage_desc": "End-of-lease cleaning, post-work cleaning and regular maintenance.",
+                "demenagement_title": "Moving & Logistics",
+                "demenagement_desc": "Private and professional moves, all-inclusive.",
+                "relocation_title": "Relocation & Housing Search",
+                "relocation_desc": "Connecting you with your ideal home."
+            }
+        },
+        "process": {
+            "title": "How It Works",
+            "subtitle": "Discover our process in 4 simple and transparent steps.",
+            "step1_title": "Contact Us",
+            "step1_desc": "Call, email or use WhatsApp to describe your project.",
+            "step2_title": "Consultation",
+            "step2_desc": "Our experts listen to your needs and define the best solutions.",
+            "step3_title": "Quote",
+            "step3_desc": "Receive a clear and personalized quote, with no obligation.",
+            "step4_title": "Execution",
+            "step4_desc": "We deliver your project with quality and on-time completion."
+        }
+    },
+    "header": {
+        "properties": "Properties",
+        "services": "Services",
+        "about": "About",
+        "contact": "Quote"
+    },
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "travaux": "Construction & Renovation",
+        "nettoyage": "Professional Cleaning",
+        "demenagement": "Moving & Logistics",
+        "relocation": "Relocation",
+        "souslocation": "Sub-letting",
+        "administratif": "Administrative Support",
+        "assurances": "Insurance & Savings",
+        "appartements": "Properties",
+        "about": "About",
+        "devis": "Get a Quote"
+    },
+    "properties": {
+        "title": "Available Properties",
+        "subtitle": "Find your next home in the Lake Geneva region. Contact us directly to arrange a visit.",
+        "sale": "Sale",
+        "rent": "Rental",
+        "sqm": "sqm",
+        "rooms": "Rooms",
+        "baths": "Bathrooms",
+        "viewDetails": "View Details",
+        "featured": "New",
+        "noResults": "No properties match your criteria.",
+        "status": {
+            "available": "Available",
+            "reserved": "Reserved",
+            "rented": "Rented"
+        },
+        "contact": {
+            "whatsapp": "WhatsApp",
+            "call": "Call",
+            "visit": "Request a Visit"
+        },
+        "filters": {
+            "rooms": "Number of Rooms",
+            "budget": "Max Budget",
+            "city": "City / Area",
+            "all": "All"
+        }
+    },
+    "filters": {
+        "transaction": "Transaction Type",
+        "sale": "Purchase",
+        "rent": "Rental",
+        "all": "All",
+        "location": "Location",
+        "locationPlaceholder": "Geneva, Montreux, Lausanne...",
+        "budget": "Budget",
+        "budgetMin": "Minimum Budget",
+        "budgetMax": "Maximum Budget"
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "Complete support for all your projects in French-speaking Switzerland.",
+        "discover": "Discover the Service",
+        "allServices": "All Our Services",
+        "cta_label": "Contact Us",
+        "cta_question": "Have a project? A question?",
+        "cta_description": "Contact us for a free, personalized quote. We'll respond within 24 hours.",
+        "cta_button": "Free Quote",
+        "search": {
+            "title": "Property Search",
+            "subtitle": "Your personal property hunter in Geneva.",
+            "description": "We actively search for the best opportunities for you — on- and off-market — combining prospecting, rigorous pre-selection and administrative validation. You save time and access rarely published properties.",
+            "features": {
+                "network": "Exclusive access to the 'Off-Market' market",
+                "selection": "Rigorous pre-selection based on your criteria",
+                "negotiation": "Support for negotiation and file preparation"
+            },
+            "cta": "Start My Search"
+        },
+        "appartements": {
+            "title": "Properties",
+            "subtitle": "Browse our catalog of available properties.",
+            "description": "Updated listings: apartments for rent and sale in the Lake Geneva region. Contact us directly to arrange a visit or get more information.",
+            "features": {
+                "listing": "Verified listings",
+                "contact": "Direct contact for visits",
+                "status": "Statuses: Available / Reserved / Rented"
+            },
+            "cta": "View Listings"
+        },
+        "travaux": {
+            "title": "Construction & Renovation",
+            "subtitle": "Complete or partial renovation of your property.",
+            "description": "We manage your project from A to Z: assessment of needs, selection of certified local craftspeople, planning and quality control. Whether it's a complete overhaul, structural renovation or interior design, we guarantee a careful result and respect for deadlines.",
+            "features": {
+                "renovation": "Major renovations and shared wall work",
+                "peinture": "Premium painting finishes & wall coverings",
+                "menuiserie": "Custom built-ins and joinery",
+                "plomberie": "Plumbing, electrical and compliance",
+                "coordination": "Complete project coordination"
+            },
+            "cta": "Request a Quote for Construction"
+        },
+        "nettoyage": {
+            "title": "Professional Cleaning",
+            "subtitle": "End of lease, end of project and regular maintenance cleaning.",
+            "description": "Trained teams and professional equipment for impeccable cleaning: guaranteed end of lease, post-project cleaning with waste removal, periodic building maintenance and window cleaning. We use eco-friendly products on request.",
+            "features": {
+                "finbail": "End of lease cleaning with handover checklist",
+                "finchantier": "Post-project cleaning and debris removal",
+                "vitres": "Window and façade cleaning and degreasing",
+                "entretien": "Customized regular maintenance contracts",
+                "desinfection": "Professional disinfection and sanitary treatment"
+            },
+            "cta": "Request a Cleaning Quote"
+        },
+        "demenagement": {
+            "title": "Moving & Logistics",
+            "subtitle": "Private and professional moves, all-inclusive.",
+            "description": "Complete and stress-free organization of your move: estimation, professional packing, secure transport and installation in your new location. We offer insurance options, temporary storage and bulk item handling.",
+            "features": {
+                "prive": "Solutions for individuals and businesses",
+                "emballage": "Professional packing and custom protection",
+                "montage": "Disassembly/reassembly and space optimization",
+                "miseenplace": "Installation and space organization at destination",
+                "debarras": "Clearance, recycling and disposal",
+                "dechetterie": "Controlled transport to disposal center",
+                "cleenmain": "All-inclusive service with insurance"
+            },
+            "cta": "Request a Moving Quote"
+        },
+        "relocation": {
+            "title": "Relocation & Housing Search",
+            "subtitle": "Connecting you to find your ideal home.",
+            "description": "Complete support for people in transition: area selection, file preparation, meetings with landlords and administrative follow-up. We facilitate quick and smooth settlement in French-speaking Switzerland.",
+            "features": {
+                "recherche": "Targeted search for rental/purchase matching your profile",
+                "preselection": "Pre-selected viewings according to your priorities",
+                "visites": "Organization and accompaniment during viewings",
+                "dossier": "Preparation and validation of rental files",
+                "miseenrelation": "Connection with landlords and property managers",
+                "coordination": "Logistics coordination for move-in/move-out"
+            },
+            "cta": "Start My Search",
+            "disclaimer": "Referral and administrative assistance services only. Léman Prestige Sàrl does not act as a property manager and does not sign lease/sub-lease contracts on behalf of the parties."
+        },
+        "souslocation": {
+            "title": "Sub-letting",
+            "subtitle": "Sub-letting management on behalf of third parties.",
+            "description": "Complete sub-letting management: search for reliable tenants, file verification, obtaining authorization from landlords and key handover organization. We handle communication and follow-up to minimize your paperwork.",
+            "features": {
+                "recherche": "Rigorous selection of sub-tenants",
+                "visites": "Organization and management of viewings",
+                "autorisation": "Assistance obtaining landlord/manager authorization",
+                "contrat": "Assistance in drafting the sub-lease agreement",
+                "coordination": "Cleaning coordination and key handover"
+            },
+            "cta": "Request Sub-letting",
+            "disclaimer": "Referral and administrative assistance services only. Léman Prestige Sàrl does not act as a property manager and does not sign lease/sub-lease contracts on behalf of the parties."
+        },
+        "administratif": {
+            "title": "Administrative Support",
+            "subtitle": "Assistance with your administrative procedures in Switzerland.",
+            "description": "Personalized support for all administrative procedures related to moving and housing: file preparation, official letters, service registrations and procedure follow-up. We simplify procedures for individuals and businesses.",
+            "features": {
+                "logement": "Lease and housing-related procedures",
+                "services": "Registration/deregistration with authorities",
+                "suivi": "Request follow-up and dedicated reminders",
+                "documents": "Organization and verification of supporting documents",
+                "assistance": "Personalized support for each step"
+            },
+            "cta": "Request Administrative Support"
+        },
+        "assurances": {
+            "title": "Insurance & Savings",
+            "subtitle": "Connection with our insurance partners.",
+            "description": "We facilitate connection with insurance partners for health, supplementary and savings solutions. Our role: compare options, explain implications and guide you toward the offer best suited to your situation.",
+            "features": {
+                "lamal": "Health insurance guidance and supplements",
+                "prevoyance": "Advice on savings and 3rd pillar",
+                "comparaison": "Objective comparison through selected partners",
+                "accompagnement": "Administrative assistance for subscriptions"
+            },
+            "benefits_title": "Our Commitments",
+            "benefits_subtitle": "Clear, competitive and reliable insurance services.",
+            "benefit_couverture_title": "Tailored Coverage",
+            "benefit_couverture_desc": "Offers adapted to your profile and budget.",
+            "benefit_transparence_title": "Transparency",
+            "benefit_transparence_desc": "Clear explanations of coverage and exclusions.",
+            "benefit_rapidite_title": "Speed",
+            "benefit_rapidite_desc": "Quick processing of requests and assistance with claims.",
+            "benefit_accompagnement_title": "Support",
+            "benefit_accompagnement_desc": "A dedicated advisor to guide you every step of the way.",
+            "cta": "Request a Referral",
+            "cta_title": "Need Insurance Advice?",
+            "cta_description": "Talk to an expert to compare the best options and optimize your premiums.",
+            "disclaimer": "Referrals only. Léman Prestige Sàrl does not engage in any regulated brokerage or insurance advice activities."
+        }
+    },
+    "hero": {
+        "title": "Léman Prestige SÀRL",
+        "subtitle": "Real estate, moving and administrative support services in Geneva and the Lake Geneva region",
+        "cta": "Get a Quote"
+    },
+    "cta": {
+        "call": "Call",
+        "whatsapp": "WhatsApp",
+        "devis": "Free Quote",
+        "phone": "+41 XX XXX XX XX"
+    },
+    "devis": {
+        "title": "Request a Quote",
+        "subtitle": "Fill in the form below and we'll get back to you within 24 business hours.",
+        "form": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "service": "Service Type",
+            "serviceOptions": {
+                "select": "Select a service",
+                "travaux": "Construction & Renovation",
+                "nettoyageBail": "End of Lease Cleaning",
+                "nettoyageChantier": "End of Project Cleaning",
+                "vitres": "Window Cleaning",
+                "demenagement": "Moving",
+                "debarras": "Clearance",
+                "relocation": "Relocation",
+                "souslocation": "Sub-letting",
+                "administratif": "Administrative Support",
+                "assurances": "Insurance Referral"
+            },
+            "address": "Address",
+            "city": "City",
+            "date": "Preferred Date",
+            "description": "Description of your needs",
+            "photos": "Photos (optional)",
+            "photosHelp": "Accepted formats: JPG, PNG, PDF. Max 10MB per file.",
+            "privacy": "I accept the privacy policy and processing of my personal data.",
+            "submit": "Submit My Request",
+            "success": "Request sent! We'll get back to you within 24 business hours.",
+            "error": "An error occurred. Please try again."
+        }
+    },
+    "relocationForm": {
+        "title": "Apartment Search",
+        "subtitle": "Fill in this form with your criteria and documents. We'll contact you within 24 business hours.",
+        "sections": {
+            "contact": "Contact Information",
+            "criteria": "Search Criteria",
+            "documents": "Required Documents"
+        },
+        "form": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "nationality": "Nationality / Permit Type",
+            "apartmentType": "Type of Housing",
+            "typeOptions": {
+                "studio": "Studio",
+                "2p": "2 Rooms",
+                "3p": "3 Rooms",
+                "4p": "4 Rooms",
+                "5p": "5+ Rooms"
+            },
+            "zones": "Preferred Area(s)",
+            "budget": "Max Budget (including utilities)",
+            "moveInDate": "Desired Move-in Date",
+            "furnished": "Furnished",
+            "furnishedOptions": {
+                "yes": "Yes",
+                "no": "No",
+                "indifferent": "No Preference"
+            },
+            "options": "Desired Options",
+            "balcony": "Balcony",
+            "parking": "Parking",
+            "pets": "Pets Accepted",
+            "occupants": "Number of Occupants",
+            "comments": "Comments",
+            "documents": {
+                "id": "Identity Document (required)",
+                "poursuites": "No Debt Certificate (required)",
+                "salaires": "Last 3 Payslips (required)",
+                "optional": "Optional Documents"
+            },
+            "documentsHelp": "Accepted formats: PDF, JPG, PNG. Max 10MB per file.",
+            "privacy": "I accept the privacy policy and processing of my personal data.",
+            "submit": "Submit My Request",
+            "success": "Request received! We'll contact you within 24 business hours.",
+            "error": "An error occurred. Please try again."
+        }
+    },
+    "about": {
+        "title": "About Léman Prestige",
+        "subtitle": "Your trusted partner in Geneva",
+        "description": "Léman Prestige Sàrl offers referral and administrative support services in the Lake Geneva region. Our team supports you in your real estate projects, moves and administrative procedures.",
+        "values": {
+            "title": "Our Values",
+            "proximity": {
+                "title": "Proximity",
+                "description": "A single contact based in Geneva, available and responsive."
+            },
+            "quality": {
+                "title": "Quality",
+                "description": "Partners selected for their professionalism."
+            },
+            "transparency": {
+                "title": "Transparency",
+                "description": "Clear quotes and detailed services."
+            }
+        }
+    },
+    "footer": {
+        "services": "Services",
+        "sales": "Construction & Renovation",
+        "rental": "Cleaning",
+        "management": "Moving",
+        "relocation": "Relocation",
+        "about": "About",
+        "ourStory": "Our Story",
+        "team": "Team",
+        "careers": "Contact",
+        "legal": "Legal",
+        "terms": "Terms",
+        "privacy": "Privacy",
+        "legalNotice": "Legal Notice",
+        "contact": "Contact",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "followUs": "Follow Us",
+        "copyright": "© {year} Léman Prestige SÀRL. All rights reserved.",
+        "disclaimer": "Léman Prestige Sàrl offers referral and administrative support services. Any activity requiring authorization is conducted exclusively by authorized partners, where applicable."
+    },
+    "legal": {
+        "mentions": "Legal Notice",
+        "privacy": "Privacy Policy",
+        "cookies": "Cookie Policy"
+    },
+    "stickyCta": {
+        "call": "Call",
+        "whatsapp": "WhatsApp",
+        "devis": "Quote"
+    }
+}

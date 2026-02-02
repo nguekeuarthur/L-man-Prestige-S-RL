@@ -1,0 +1,323 @@
+/* === HERO SECTION === */
+.heroSection {
+    background: linear-gradient(135deg, #051622 0%, #0a2a43 50%, #051622 100%);
+    padding: 6rem 1rem 4rem;
+    min-height: 70vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroOrb1 {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+    animation: float 8s ease-in-out infinite;
+}
+
+.heroOrb2 {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.06) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+    animation: float 10s ease-in-out infinite reverse;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-30px) scale(1.05); }
+}
+
+.heroContent {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #ffffff 0%, #C5A059 50%, #ffffff 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    animation: shimmer 4s ease-in-out infinite;
+    line-height: 1.2;
+}
+
+@keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* === OFFERING SECTIONS === */
+.offeringSection {
+    background: #051622;
+    padding: 6rem 1rem;
+}
+
+.offeringGrid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.offeringCard {
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.6) 0%, rgba(5, 22, 34, 0.8) 100%);
+    border: 1px solid rgba(197, 160, 89, 0.15);
+    border-radius: 16px;
+    padding: 2.5rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(20px);
+}
+
+.offeringCard:hover {
+    border-color: rgba(197, 160, 89, 0.4);
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.8) 0%, rgba(5, 22, 34, 0.95) 100%);
+    transform: translateY(-8px);
+}
+
+.offeringNumber {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #C5A059 0%, #d4b375 100%);
+    border-radius: 12px;
+    color: #051622;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.offeringTitle {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.offeringDescription {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* === BENEFITS SECTION === */
+.benefitsSection {
+    background: #051622;
+    padding: 6rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.benefitsOrb {
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.06) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+}
+
+.benefitsTitleSection {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    text-align: center;
+}
+
+.benefitsMainTitle {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #ffffff 0%, #C5A059 50%, #ffffff 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+    animation: shimmer 4s ease-in-out infinite;
+}
+
+.benefitsSubtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.benefitsGrid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.benefitCard {
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.6) 0%, rgba(5, 22, 34, 0.8) 100%);
+    border: 1px solid rgba(197, 160, 89, 0.15);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(20px);
+}
+
+.benefitCard:hover {
+    border-color: rgba(197, 160, 89, 0.4);
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.8) 0%, rgba(5, 22, 34, 0.95) 100%);
+    transform: translateY(-8px);
+}
+
+.benefitIcon {
+    width: 56px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.45));
+}
+
+.benefitTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.benefitDescription {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* === CTA SECTION === */
+.ctaSection {
+    background: #051622;
+    padding: 4rem 1rem;
+    border-top: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.ctaContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ctaTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.ctaDescription {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.ctaButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .heroSection {
+        padding: 4rem 1rem 3rem;
+        min-height: 50vh;
+    }
+
+    .heroOrb1,
+    .heroOrb2 {
+        display: none;
+    }
+
+    .heroTitle {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .heroSubtitle {
+        font-size: 0.95rem;
+    }
+
+    .offeringSection,
+    .benefitsSection {
+        padding: 3rem 1rem;
+    }
+
+    .offeringGrid,
+    .benefitsGrid {
+        gap: 1.5rem;
+    }
+
+    .offeringCard,
+    .benefitCard {
+        padding: 1.5rem;
+    }
+
+    .benefitsMainTitle {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .ctaSection {
+        padding: 2.5rem 1rem;
+    }
+
+    .ctaTitle {
+        font-size: 1.5rem;
+    }
+
+    .ctaButtons {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,207 @@
+.servicesHighlight {
+    background: linear-gradient(135deg, #051622 0%, #0a2a43 100%);
+    padding: 4rem 1rem;
+    margin: 0;
+}
+
+@media (min-width: 640px) {
+    .servicesHighlight {
+        padding: 6rem 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .servicesHighlight {
+        padding: 8rem 3rem;
+    }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title {
+    color: white;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    letter-spacing: -0.02em;
+}
+
+@media (min-width: 640px) {
+    .title {
+        font-size: 2.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 3rem;
+    }
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+    padding: 2rem 1.5rem;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.1), transparent);
+    transition: left 0.6s ease;
+}
+
+.card:hover {
+    border-color: rgba(197, 160, 89, 0.5);
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+.card:hover::before {
+    left: 100%;
+}
+
+.iconWrapper {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(197, 160, 89, 0.1);
+    border-radius: 0.375rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.card:hover .iconWrapper {
+    background: rgba(197, 160, 89, 0.2);
+    transform: scale(1.1);
+}
+
+.iconWrapper svg {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: #C5A059;
+    transition: color 0.3s ease;
+}
+
+.card:hover .iconWrapper svg {
+    color: #d4af64;
+}
+
+.cardTitle {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem 0;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.card:hover .cardTitle {
+    color: #C5A059;
+}
+
+.cardDescription {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin: 0 0 auto 0;
+    flex-grow: 1;
+}
+
+.discover {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #C5A059;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+    transition: gap 0.3s ease;
+}
+
+.card:hover .discover {
+    gap: 0.75rem;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.allServicesLink {
+    background: rgba(197, 160, 89, 0.1);
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    color: #C5A059;
+    padding: 0.875rem 2rem;
+    border-radius: 0.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.allServicesLink:hover {
+    background: rgba(197, 160, 89, 0.2);
+    border-color: rgba(197, 160, 89, 0.5);
+    color: #d4af64;
+}

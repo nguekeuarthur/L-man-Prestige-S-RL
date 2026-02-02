@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "title": "Villa Emerald - Lac Léman",
+        "location": "Cologny, Genève",
+        "price": "14,500,000 CHF",
+        "type": "sale",
+        "sqm": 450,
+        "rooms": 10,
+        "baths": 6,
+        "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=2071&auto=format&fit=crop"
+    },
+    {
+        "id": "2",
+        "title": "Penthouse Sky Palace",
+        "location": "Quai Gustave-Ador, Genève",
+        "price": "45,000 CHF / mois",
+        "type": "rent",
+        "sqm": 280,
+        "rooms": 6,
+        "baths": 3,
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        "id": "3",
+        "title": "Domaine des Chênes",
+        "location": "Montreux, Vaud",
+        "price": "8,900,000 CHF",
+        "type": "sale",
+        "sqm": 380,
+        "rooms": 8,
+        "baths": 4,
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        "id": "4",
+        "title": "Appartement d'Exception",
+        "location": "Avenue d'Ouchy, Lausanne",
+        "price": "12,000 CHF / mois",
+        "type": "rent",
+        "sqm": 160,
+        "rooms": 4,
+        "baths": 2,
+        "image": "https://images.unsplash.com/photo-1600607687940-47a0f9259d4b?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        "id": "5",
+        "title": "Manoir du Belvédère",
+        "location": "Vésenaz, Genève",
+        "price": "19,200,000 CHF",
+        "type": "sale",
+        "sqm": 600,
+        "rooms": 14,
+        "baths": 8,
+        "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop"
+    },
+    {
+        "id": "6",
+        "title": "Résidence Panorama Luxe",
+        "location": "Lutry, Vaud",
+        "price": "6,500,000 CHF",
+        "type": "sale",
+        "sqm": 220,
+        "rooms": 5,
+        "baths": 3,
+        "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=2070&auto=format&fit=crop"
+    }
+]

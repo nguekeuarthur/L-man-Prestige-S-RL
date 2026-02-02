@@ -1,0 +1,1013 @@
+/* === PAGE CONTAINER === */
+.devisPage {
+    background: linear-gradient(135deg, #051622 0%, #0a2a43 50%, #051622 100%);
+    padding: 8rem 1rem 4rem;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative orbs */
+.decorativeOrb1 {
+    position: absolute;
+    top: 10%;
+    left: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+    animation: float 8s ease-in-out infinite;
+}
+
+.decorativeOrb2 {
+    position: absolute;
+    bottom: 10%;
+    right: -10%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(197, 160, 89, 0.06) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    pointer-events: none;
+    animation: float 10s ease-in-out infinite reverse;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-30px) scale(1.05); }
+}
+
+/* === MAIN CONTAINER === */
+.devisContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.6) 0%, rgba(5, 22, 34, 0.8) 100%);
+    border-radius: 24px;
+    padding: 3rem;
+    border: 1px solid rgba(197, 160, 89, 0.15);
+    box-shadow: 
+        0 25px 50px -12px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(197, 160, 89, 0.1) inset,
+        0 -20px 40px -20px rgba(197, 160, 89, 0.05) inset;
+    backdrop-filter: blur(20px);
+    position: relative;
+    z-index: 1;
+}
+
+/* === HEADER === */
+.header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.headerBadge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(197, 160, 89, 0.1);
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 100px;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.85rem;
+    color: #C5A059;
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 0.6s ease-out;
+}
+
+.headerBadgeIcon {
+    font-size: 1rem;
+}
+
+.title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, #ffffff 0%, #C5A059 50%, #ffffff 100%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 0.75rem;
+    animation: shimmer 4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.headerDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.dividerLine {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(197, 160, 89, 0.5), transparent);
+}
+
+.dividerIcon {
+    color: #C5A059;
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+/* === PROGRESS INDICATOR === */
+.progressContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.25rem;
+    background: rgba(5, 22, 34, 0.5);
+    border-radius: 16px;
+    border: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.progressStep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.progressDot {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.4);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progressDot.active {
+    background: linear-gradient(135deg, #C5A059 0%, #d4b375 100%);
+    border-color: #C5A059;
+    color: #051622;
+    box-shadow: 0 0 20px rgba(197, 160, 89, 0.4);
+}
+
+.progressLabel {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.progressLine {
+    width: 40px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+/* === FORM SECTIONS === */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formSection {
+    background: rgba(5, 22, 34, 0.4);
+    border-radius: 16px;
+    padding: 1.75rem;
+    border: 1px solid rgba(197, 160, 89, 0.08);
+    transition: all 0.3s ease;
+}
+
+.errorMessage {
+    margin-top: 1rem;
+    color: #ffb3b3;
+    background: rgba(255, 0, 0, 0.04);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 0, 0, 0.08);
+}
+
+/* Flatpickr overrides to match site colors */
+.flatpickr-calendar {
+    background: #051622 !important;
+    color: #fff !important;
+    border: 1px solid rgba(197,160,89,0.12) !important;
+    box-shadow: 0 10px 30px rgba(5,22,34,0.6) !important;
+}
+.flatpickr-months .flatpickr-month { color: #fff !important; }
+.flatpickr-weekdays { color: #ddd !important; }
+.flatpickr-weekday { color: #ddd !important; }
+.flatpickr-day { color: #e6eef2 !important; }
+.flatpickr-day.today { color: #C5A059 !important; }
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange {
+    background: #C5A059 !important;
+    color: #051622 !important;
+    border-radius: 6px !important;
+}
+.flatpickr-day:hover { background: rgba(197,160,89,0.06) !important; }
+.flatpickr-week { color: #ddd !important; }
+.flatpickr-time { color: #fff !important; }
+.flatpickr-prev-month, .flatpickr-next-month { color: #fff !important; }
+
+/* ensure input visually fits */
+.fp-input { width: 100%; }
+
+.formSection:hover {
+    border-color: rgba(197, 160, 89, 0.15);
+    background: rgba(5, 22, 34, 0.5);
+}
+
+.sectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.15);
+}
+
+.sectionIcon {
+    font-size: 1.25rem;
+}
+
+/* === GRID LAYOUT === */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.grid:last-child {
+    margin-bottom: 0;
+}
+
+.fullWidth {
+    grid-column: 1 / -1;
+}
+
+/* === INPUT GROUPS === */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.inputGroup.focused {
+    transform: translateY(-2px);
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.labelIcon {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.required {
+    color: #C5A059;
+}
+
+/* === INPUTS === */
+.input,
+.select,
+.textarea {
+    background: rgba(5, 22, 34, 0.7) !important;
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    color: #fff !important;
+    font-size: 16px; /* Prevent zoom on iOS */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+/* Autofill fix for webkit browsers */
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active,
+.select:-webkit-autofill,
+.textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgba(5, 22, 34, 0.95) inset !important;
+    -webkit-text-fill-color: #fff !important;
+    caret-color: #fff;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.input:hover,
+.select:hover,
+.textarea:hover {
+    border-color: rgba(197, 160, 89, 0.4);
+    background: rgba(5, 22, 34, 0.8) !important;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    outline: none;
+    border-color: #C5A059;
+    background: rgba(10, 42, 67, 0.6) !important;
+    box-shadow: 
+        0 0 0 4px rgba(197, 160, 89, 0.1),
+        0 0 20px rgba(197, 160, 89, 0.1);
+}
+
+/* Select wrapper */
+.selectWrapper {
+    position: relative;
+}
+
+.select {
+    appearance: none;
+    cursor: pointer;
+    padding-right: 3rem;
+}
+
+.selectArrow {
+    position: absolute;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #C5A059;
+    font-size: 0.75rem;
+    pointer-events: none;
+    transition: transform 0.3s ease;
+}
+
+.select:focus + .selectArrow {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+/* Textarea */
+.textarea {
+    min-height: 140px;
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.charCount {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.4);
+    text-align: right;
+    margin-top: 0.25rem;
+}
+
+/* === CHECKBOX === */
+.checkboxContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.checkbox {
+    width: 1.5rem;
+    height: 1.5rem;
+    min-width: 1.5rem;
+    background: rgba(5, 22, 34, 0.7);
+    border: 2px solid rgba(197, 160, 89, 0.3);
+    border-radius: 6px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    transition: all 0.3s ease;
+    margin-top: 0.125rem;
+}
+
+.checkbox:hover {
+    border-color: rgba(197, 160, 89, 0.6);
+}
+
+.checkbox:checked {
+    background: linear-gradient(135deg, #C5A059 0%, #d4b375 100%);
+    border-color: #C5A059;
+}
+
+.checkbox:checked::before {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #051622;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.checkboxLabel {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.checkboxLabel a {
+    color: #C5A059;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+}
+
+.checkboxLabel a:hover {
+    opacity: 0.8;
+}
+
+/* === SUBMIT SECTION === */
+.submitSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
+.submitButton {
+    background: linear-gradient(135deg, #C5A059 0%, #d4b375 50%, #C5A059 100%);
+    background-size: 200% 200%;
+    color: #051622;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 1.125rem 3rem;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 
+        0 4px 15px rgba(197, 160, 89, 0.3),
+        0 0 0 0 rgba(197, 160, 89, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.submitButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.submitButton:hover::before {
+    left: 100%;
+}
+
+.submitButton:hover {
+    background-position: 100% 50%;
+    transform: translateY(-3px);
+    box-shadow: 
+        0 8px 25px rgba(197, 160, 89, 0.4),
+        0 0 0 4px rgba(197, 160, 89, 0.1);
+}
+
+.submitButton:active {
+    transform: translateY(-1px);
+}
+
+.submitButton:disabled {
+    background: linear-gradient(135deg, #6b5a3a 0%, #8a724a 100%);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.buttonIcon {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+}
+
+.submitButton:hover .buttonIcon {
+    transform: translateX(5px);
+}
+
+.buttonLoading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(5, 22, 34, 0.3);
+    border-top-color: #051622;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.submitNote {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+}
+
+.noteIcon {
+    font-size: 0.9rem;
+}
+
+/* === SUCCESS STATE === */
+.successContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 3rem;
+    background: linear-gradient(145deg, rgba(10, 42, 67, 0.6) 0%, rgba(5, 22, 34, 0.8) 100%);
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    border-radius: 24px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* === SUCCESS VIEW === */
+.successContainer {
+    margin-top: 10rem; /* ajuste l'espacement au-dessus de la boîte de confirmation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 2.5rem 1.25rem;
+}
+
+.successIconWrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.successIconCircle {
+    width: 120px;
+    height: 120px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #C5A059 0%, #d4b375 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 30px rgba(197,160,89,0.25);
+}
+
+.successCheck {
+    width: 48px;
+    height: 48px;
+    color: #051622;
+}
+
+.successTitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0.5rem 0 0;
+}
+
+.successMessage {
+    color: rgba(255,255,255,0.85);
+    max-width: 640px;
+}
+
+.successDetails {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.successDetailItem span {
+    color: rgba(255,255,255,0.9);
+    background: rgba(197,160,89,0.06);
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.successRipple {
+    position: absolute;
+    inset: -12px;
+    border-radius: 999px;
+    background: radial-gradient(circle, rgba(197,160,89,0.12) 0%, transparent 55%);
+    filter: blur(18px);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.successIconWrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.successIconCircle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #10B981 0%, #34D399 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scaleIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0.2s both;
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.successCheck {
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    animation: drawCheck 0.5s ease 0.5s both;
+}
+
+@keyframes drawCheck {
+    from {
+        stroke-dasharray: 50;
+        stroke-dashoffset: 50;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.successRipple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgba(16, 185, 129, 0.5);
+    border-radius: 50%;
+    animation: ripple 1.5s ease-out infinite;
+}
+
+@keyframes ripple {
+    from {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-50%, -50%) scale(1.8);
+        opacity: 0;
+    }
+}
+
+.successTitle {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.successMessage {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.successDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1.5rem;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 12px;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.successDetailItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+}
+
+.successDetailIcon {
+    font-size: 1.1rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+    .devisPage {
+        padding: 5rem 0.75rem 2rem;
+    }
+    
+    .decorativeOrb1,
+    .decorativeOrb2 {
+        display: none;
+    }
+    
+    .devisContainer {
+        padding: 1.5rem 1rem;
+        border-radius: 16px;
+    }
+    
+    .header {
+        margin-bottom: 1.5rem;
+    }
+    
+    .headerBadge {
+        font-size: 0.7rem;
+        padding: 0.35rem 0.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .headerDivider {
+        margin-top: 1rem;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .progressContainer {
+        flex-wrap: nowrap;
+        gap: 0.25rem;
+        padding: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .progressDot {
+        width: 28px;
+        height: 28px;
+        font-size: 0.75rem;
+    }
+    
+    .progressLabel {
+        font-size: 0.6rem;
+        letter-spacing: 0;
+    }
+    
+    .progressLine {
+        width: 20px;
+        margin-bottom: 1rem;
+    }
+    
+    .form {
+        gap: 1.25rem;
+    }
+    
+    .formSection {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    
+    .sectionTitle {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .inputGroup {
+        gap: 0.35rem;
+    }
+    
+    .label {
+        font-size: 0.75rem;
+    }
+    
+    .input,
+    .select,
+    .textarea {
+        padding: 0.75rem 0.875rem;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    
+    .selectWrapper .selectArrow {
+        right: 0.875rem;
+    }
+    
+    .textarea {
+        min-height: 100px;
+    }
+    
+    .charCount {
+        font-size: 0.65rem;
+    }
+    
+    .checkboxContainer {
+        gap: 0.625rem;
+    }
+    
+    .checkbox {
+        width: 1.25rem;
+        height: 1.25rem;
+        min-width: 1.25rem;
+    }
+    
+    .checkboxLabel {
+        font-size: 0.8rem;
+    }
+    
+    .submitSection {
+        gap: 0.875rem;
+        padding-top: 0.5rem;
+    }
+    
+    .submitButton {
+        width: 100%;
+        padding: 0.875rem 1.5rem;
+        font-size: 0.9rem;
+        border-radius: 10px;
+    }
+    
+    .submitNote {
+        font-size: 0.7rem;
+    }
+    
+    .successContainer {
+        padding: 2rem 1.25rem;
+        margin: 0 0.5rem;
+    }
+    
+    .successIconWrapper {
+        margin-bottom: 1.5rem;
+    }
+    
+    .successIconCircle {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .successCheck {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .successRipple {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .successTitle {
+        font-size: 1.5rem;
+    }
+    
+    .successMessage {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .successDetails {
+        padding: 1rem;
+    }
+    
+    .successDetailItem {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .devisPage {
+        padding: 4.5rem 0.5rem 1.5rem;
+    }
+    
+    .devisContainer {
+        padding: 1.25rem 0.875rem;
+        border-radius: 14px;
+    }
+    
+    .headerBadge {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.625rem;
+    }
+    
+    .title {
+        font-size: 1.35rem;
+    }
+    
+    .subtitle {
+        font-size: 0.85rem;
+    }
+    
+    .progressDot {
+        width: 24px;
+        height: 24px;
+        font-size: 0.65rem;
+    }
+    
+    .progressLabel {
+        font-size: 0.55rem;
+    }
+    
+    .formSection {
+        padding: 0.875rem;
+    }
+    
+    .sectionTitle {
+        font-size: 0.875rem;
+    }
+    
+    .label {
+        font-size: 0.7rem;
+    }
+    
+    .input,
+    .select,
+    .textarea {
+        padding: 0.625rem 0.75rem;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+    
+    .submitButton {
+        padding: 0.75rem 1.25rem;
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,378 @@
+{
+    "homepage": {
+        "services": {
+            "highlight": {
+                "title": "Nos Services Principaux",
+                "subtitle": "Découvrez nos 4 services phares pour accompagner tous vos projets en Suisse romande.",
+                "discover": "Découvrir",
+                "view_all": "Voir tous les services",
+                "travaux_title": "Travaux & Rénovation",
+                "travaux_desc": "Rénovation complète ou partielle de votre bien immobilier.",
+                "nettoyage_title": "Nettoyage Professionnel",
+                "nettoyage_desc": "Nettoyage fin de bail, fin de chantier et entretien régulier.",
+                "demenagement_title": "Déménagement & Logistique",
+                "demenagement_desc": "Déménagements privés et professionnels, clé en main.",
+                "relocation_title": "Relocation & Recherche Logement",
+                "relocation_desc": "Mise en relation pour trouver votre logement idéal."
+            }
+        },
+        "process": {
+            "title": "Comment ça Marche ?",
+            "subtitle": "Découvrez notre processus en 4 étapes simples et transparentes.",
+            "step1_title": "Contactez-nous",
+            "step1_desc": "Appelez, écrivez ou utilisez WhatsApp pour décrire votre projet.",
+            "step2_title": "Consultation",
+            "step2_desc": "Nos experts écoutent vos besoins et définissent les meilleures solutions.",
+            "step3_title": "Devis",
+            "step3_desc": "Recevez un devis clair et personnalisé, sans engagement.",
+            "step4_title": "Réalisation",
+            "step4_desc": "Nous réalisons votre projet avec qualité et respect des délais."
+        }
+    },
+    "header": {
+        "properties": "Appartements",
+        "services": "Services",
+        "about": "À propos",
+        "contact": "Devis"
+    },
+    "nav": {
+        "home": "Accueil",
+        "services": "Services",
+        "travaux": "Travaux & Rénovation",
+        "nettoyage": "Nettoyage Professionnel",
+        "demenagement": "Déménagement & Logistique",
+        "relocation": "Relocation",
+        "souslocation": "Sous-location",
+        "administratif": "Accompagnement Administratif",
+        "assurances": "Assurances & Prévoyance",
+        "appartements": "Appartements",
+        "about": "À propos",
+        "devis": "Demander un Devis"
+    },
+    "properties": {
+        "title": "Appartements disponibles",
+        "subtitle": "Trouvez votre prochain logement dans la région lémanique. Contactez-nous directement pour organiser une visite.",
+        "sale": "Vente",
+        "rent": "Location",
+        "sqm": "m²",
+        "rooms": "Pièces",
+        "baths": "Salles d'eau",
+        "viewDetails": "Voir les détails",
+        "featured": "Nouveau",
+        "noResults": "Aucun appartement ne correspond à vos critères.",
+        "status": {
+            "available": "Disponible",
+            "reserved": "Réservé",
+            "rented": "Loué"
+        },
+        "contact": {
+            "whatsapp": "WhatsApp",
+            "call": "Appeler",
+            "visit": "Demander une visite"
+        },
+        "filters": {
+            "rooms": "Nombre de pièces",
+            "budget": "Budget max",
+            "city": "Ville / Quartier",
+            "all": "Tous"
+        }
+    },
+    "filters": {
+        "transaction": "Type de transaction",
+        "sale": "Achat",
+        "rent": "Location",
+        "all": "Tous",
+        "location": "Localisation",
+        "locationPlaceholder": "Genève, Montreux, Lausanne...",
+        "budget": "Budget",
+        "budgetMin": "Budget minimum",
+        "budgetMax": "Budget maximum"
+    },
+    "services": {
+        "title": "Nos Services",
+        "subtitle": "Accompagnement complet pour tous vos projets en Suisse romande.",
+        "discover": "Découvrir le service",
+        "allServices": "Tous nos services",
+        "cta_label": "Contactez-nous",
+        "cta_question": "Un projet ? Une question ?",
+        "cta_description": "Contactez-nous pour un devis gratuit et personnalisé. Nous vous répondons sous 24h.",
+        "cta_button": "Devis gratuit",
+        "search": {
+            "title": "Recherche de Biens",
+            "subtitle": "Votre chasseur immobilier personnel à Genève.",
+            "description": "Nous recherchons activement les meilleures opportunités pour vous — on- et off-market — en combinant prospection, présélection exigeante et validation administrative. Vous gagnez du temps et accédez à des biens rarement publiés.",
+            "features": {
+                "network": "Accès privilégié au marché 'Off-Market'",
+                "selection": "Présélection rigoureuse basée sur vos critères",
+                "negotiation": "Accompagnement à la négociation et au montage du dossier"
+            },
+            "cta": "Démarrer ma recherche"
+        },
+        "appartements": {
+            "title": "Appartements",
+            "subtitle": "Consultez notre catalogue d'appartements disponibles.",
+            "description": "Catalogue d'annonces mis à jour : appartements à louer et à vendre en région lémanique. Contactez-nous directement pour organiser une visite ou obtenir plus d'informations.",
+            "features": {
+                "listing": "Annonces vérifiées",
+                "contact": "Contact direct pour visites",
+                "status": "Statuts : Disponible / Réservé / Loué"
+            },
+            "cta": "Voir les annonces"
+        },
+        "travaux": {
+            "title": "Travaux & Rénovation",
+            "subtitle": "Rénovation complète ou partielle de votre bien immobilier.",
+            "description": "Nous pilotons votre chantier de A à Z : étude des besoins, sélection d'artisans locaux certifiés, planification et contrôle qualité. Qu'il s'agisse d'une remise à neuf, d'une rénovation structurelle ou d'un aménagement intérieur, nous garantissons un résultat soigné et respectueux des délais.",
+            "features": {
+                "renovation": "Rénovations lourdes et mitoyennes",
+                "peinture": "Finitions peinture & revêtements haut de gamme",
+                "menuiserie": "Agencements sur mesure et menuiserie",
+                "plomberie": "Plomberie, électricité et conformité",
+                "coordination": "Coordination complète du chantier"
+            },
+            "cta": "Demander un devis travaux"
+        },
+        "nettoyage": {
+            "title": "Nettoyage Professionnel",
+            "subtitle": "Nettoyage fin de bail, fin de chantier et entretien régulier.",
+            "description": "Équipes formées et matériel professionnel pour un nettoyage impeccable : fin de bail garanti, fin de chantier avec évacuation des déchets, entretien périodique d'immeubles et surfaces vitrées. Nous utilisons des produits éco-responsables sur demande.",
+            "features": {
+                "finbail": "Nettoyage fin de bail avec check-list de restitution",
+                "finchantier": "Nettoyage post-chantier et évacuation des gravats",
+                "vitres": "Nettoyage et dégraissage de vitres et façades",
+                "entretien": "Contrats d'entretien réguliers sur-mesure",
+                "desinfection": "Désinfection professionnelle et traitement sanitaire"
+            },
+            "cta": "Demander un devis nettoyage"
+        },
+        "demenagement": {
+            "title": "Déménagement & Logistique",
+            "subtitle": "Déménagements privés et professionnels, clé en main.",
+            "description": "Organisation complète et sereine de votre déménagement : estimation, emballage professionnel, transport sécurisé et installation dans votre nouveau lieu. Nous proposons des options d'assurance, stockage temporaire et gestion des encombrants.",
+            "features": {
+                "prive": "Solutions pour particuliers et entreprises",
+                "emballage": "Emballage professionnel et protection sur-mesure",
+                "montage": "Démontage/remontage et optimisation d'espace",
+                "miseenplace": "Installation et réorganisation à destination",
+                "debarras": "Débarras, recyclage et évacuation",
+                "dechetterie": "Transport contrôlé vers déchetterie",
+                "cleenmain": "Service clé en main avec assurance"
+            },
+            "cta": "Demander un devis déménagement"
+        },
+        "relocation": {
+            "title": "Relocation & Recherche Logement",
+            "subtitle": "Mise en relation pour trouver votre logement idéal.",
+            "description": "Accompagnement complet pour personnes en mobilité : repérage des zones adaptées, constitution du dossier, rendez-vous avec les régies et suivi administratif. Nous facilitons l'installation rapide et sereine en Suisse romande.",
+            "features": {
+                "recherche": "Recherche ciblée location/achat adaptée à votre profil",
+                "preselection": "Visites présélectionnées selon vos priorités",
+                "visites": "Organisation et accompagnement lors des visites",
+                "dossier": "Montage et validation des dossiers locatifs",
+                "miseenrelation": "Mise en relation avec régies et propriétaires",
+                "coordination": "Coordination logistique entrée/sortie"
+            },
+            "cta": "Commencer ma recherche",
+            "disclaimer": "Services de mise en relation et d'assistance administrative. Léman Prestige Sàrl n'agit pas en qualité de régie et ne signe pas les contrats de bail/sous-location à la place des parties."
+        },
+        "souslocation": {
+            "title": "Sous-location",
+            "subtitle": "Gestion de sous-location pour le compte de tiers.",
+            "description": "Gestion complète de la sous-location : recherche de locataires fiables, vérification des dossiers, gestion des autorisations auprès des régies et organisation des remises de clés. Nous prenons en charge la communication et le suivi pour minimiser vos formalités.",
+            "features": {
+                "recherche": "Sélection rigoureuse de sous-locataires",
+                "visites": "Organisation et gestion des visites",
+                "autorisation": "Accompagnement pour l'autorisation régie/bailleur",
+                "contrat": "Assistance à la rédaction du contrat de sous-location",
+                "coordination": "Coordination nettoyage et remise des clés"
+            },
+            "cta": "Demander une sous-location",
+            "disclaimer": "Services de mise en relation et d'assistance administrative. Léman Prestige Sàrl n'agit pas en qualité de régie et ne signe pas les contrats de bail/sous-location à la place des parties."
+        },
+        "administratif": {
+            "title": "Accompagnement Administratif",
+            "subtitle": "Assistance pour vos démarches administratives en Suisse.",
+            "description": "Support personnalisé pour toutes les démarches administratives liées à l'installation et au logement : constitution de dossiers, courriers officiels, inscriptions aux services et suivi des procédures. Nous simplifions les démarches pour les particuliers et entreprises.",
+            "features": {
+                "logement": "Démarches liées au bail et au logement",
+                "services": "Inscription/désinscription auprès des administrations",
+                "suivi": "Suivi des demandes et relances dédiées",
+                "documents": "Organisation et vérification des pièces justificatives",
+                "assistance": "Accompagnement personnalisé pour chaque étape"
+            },
+            "cta": "Demander un accompagnement"
+        },
+        "assurances": {
+            "title": "Assurances & Prévoyance",
+            "subtitle": "Mise en relation avec nos partenaires assureurs.",
+            "description": "Nous facilitons la mise en relation avec des partenaires assureurs pour LAMal, complémentaires et solutions de prévoyance. Notre rôle : comparer les options, expliquer les implications et vous orienter vers l'offre adaptée à votre situation.",
+            "features": {
+                "lamal": "Orientation LAMal et complémentaires adaptées",
+                "prevoyance": "Conseils sur la prévoyance et 3ème pilier",
+                "comparaison": "Comparaison objective via partenaires sélectionnés",
+                "accompagnement": "Assistance administrative pour souscriptions"
+            },
+            "cta": "Demander une mise en relation",
+            "cta_title": "Besoin d'un conseil en assurances ?",
+            "cta_description": "Parlez à un expert pour comparer les meilleures options et optimiser vos cotisations.",
+            "disclaimer": "Mise en relation uniquement. Léman Prestige Sàrl n'exerce aucune activité de courtage ou de conseil réglementé en assurances.",
+            "benefits_title": "Nos engagements",
+            "benefits_subtitle": "Des services d'assurance clairs, compétitifs et fiables.",
+            "benefit_couverture_title": "Couverture sur-mesure",
+            "benefit_couverture_desc": "Des offres adaptées selon votre profil et budget.",
+            "benefit_transparence_title": "Transparence",
+            "benefit_transparence_desc": "Explications claires des garanties et exclusions.",
+            "benefit_rapidite_title": "Rapidité",
+            "benefit_rapidite_desc": "Traitement rapide des demandes et assistance lors des sinistres.",
+            "benefit_accompagnement_title": "Accompagnement",
+            "benefit_accompagnement_desc": "Un conseiller dédié pour vous guider étape par étape."
+        }
+    },
+    "hero": {
+        "title": "Léman Prestige SÀRL",
+        "subtitle": "Services immobiliers, déménagement et accompagnement administratif à Genève et région lémanique",
+        "cta": "Demander un devis"
+    },
+    "cta": {
+        "call": "Appeler",
+        "whatsapp": "WhatsApp",
+        "devis": "Devis gratuit",
+        "phone": "+41 XX XXX XX XX"
+    },
+    "devis": {
+        "title": "Demander un devis",
+        "subtitle": "Remplissez le formulaire ci-dessous et nous vous recontacterons dans les 24h ouvrables.",
+        "form": {
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "service": "Type de service",
+            "serviceOptions": {
+                "select": "Sélectionnez un service",
+                "travaux": "Travaux & Rénovation",
+                "nettoyageBail": "Nettoyage fin de bail",
+                "nettoyageChantier": "Nettoyage fin de chantier",
+                "vitres": "Nettoyage de vitres",
+                "demenagement": "Déménagement",
+                "debarras": "Débarras",
+                "relocation": "Relocation",
+                "souslocation": "Sous-location",
+                "administratif": "Accompagnement administratif",
+                "assurances": "Mise en relation assurances"
+            },
+            "address": "Adresse",
+            "city": "Ville",
+            "date": "Date souhaitée",
+            "description": "Description de votre besoin",
+            "photos": "Photos (optionnel)",
+            "photosHelp": "Formats acceptés : JPG, PNG, PDF. Max 10MB par fichier.",
+            "privacy": "J'accepte la politique de confidentialité et le traitement de mes données personnelles.",
+            "submit": "Envoyer ma demande",
+            "success": "Demande envoyée ! Nous vous recontacterons sous 24h ouvrables.",
+            "error": "Une erreur est survenue. Veuillez réessayer."
+        }
+    },
+    "relocationForm": {
+        "title": "Recherche d'appartement",
+        "subtitle": "Remplissez ce formulaire avec vos critères et documents. Nous vous recontacterons sous 24h ouvrables.",
+        "sections": {
+            "contact": "Coordonnées",
+            "criteria": "Critères de recherche",
+            "documents": "Documents requis"
+        },
+        "form": {
+            "firstName": "Prénom",
+            "lastName": "Nom",
+            "email": "Email",
+            "phone": "Téléphone",
+            "nationality": "Nationalité / Type de permis",
+            "apartmentType": "Type de logement",
+            "typeOptions": {
+                "studio": "Studio",
+                "2p": "2 pièces",
+                "3p": "3 pièces",
+                "4p": "4 pièces",
+                "5p": "5 pièces et plus"
+            },
+            "zones": "Zone(s) souhaitée(s)",
+            "budget": "Budget max (charges comprises)",
+            "moveInDate": "Date d'entrée souhaitée",
+            "furnished": "Meublé",
+            "furnishedOptions": {
+                "yes": "Oui",
+                "no": "Non",
+                "indifferent": "Indifférent"
+            },
+            "options": "Options souhaitées",
+            "balcony": "Balcon",
+            "parking": "Parking",
+            "pets": "Animaux acceptés",
+            "occupants": "Nombre d'occupants",
+            "comments": "Commentaires",
+            "documents": {
+                "id": "Pièce d'identité (obligatoire)",
+                "poursuites": "Attestation de poursuites (obligatoire)",
+                "salaires": "3 dernières fiches de salaire (obligatoire)",
+                "optional": "Documents optionnels"
+            },
+            "documentsHelp": "Formats acceptés : PDF, JPG, PNG. Max 10MB par fichier.",
+            "privacy": "J'accepte la politique de confidentialité et le traitement de mes données personnelles.",
+            "submit": "Envoyer ma demande",
+            "success": "Demande reçue ! Nous vous contactons sous 24h ouvrables.",
+            "error": "Une erreur est survenue. Veuillez réessayer."
+        }
+    },
+    "about": {
+        "title": "À propos de Léman Prestige",
+        "subtitle": "Votre partenaire de confiance à Genève",
+        "description": "Léman Prestige Sàrl propose des services de mise en relation et d'accompagnement administratif dans la région lémanique. Notre équipe vous accompagne dans vos projets immobiliers, déménagements et démarches administratives.",
+        "values": {
+            "title": "Nos valeurs",
+            "proximity": {
+                "title": "Proximité",
+                "description": "Un interlocuteur unique basé à Genève, disponible et réactif."
+            },
+            "quality": {
+                "title": "Qualité",
+                "description": "Des partenaires sélectionnés pour leur professionnalisme."
+            },
+            "transparency": {
+                "title": "Transparence",
+                "description": "Des devis clairs et des prestations détaillées."
+            }
+        }
+    },
+    "footer": {
+        "services": "Services",
+        "sales": "Travaux & Rénovation",
+        "rental": "Nettoyage",
+        "management": "Déménagement",
+        "relocation": "Relocation",
+        "about": "À propos",
+        "ourStory": "Notre histoire",
+        "team": "Équipe",
+        "careers": "Contact",
+        "legal": "Légal",
+        "terms": "Conditions",
+        "privacy": "Confidentialité",
+        "legalNotice": "Mentions légales",
+        "contact": "Contact",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "Adresse",
+        "followUs": "Suivez-nous",
+        "copyright": "© {year} Léman Prestige SÀRL. Tous droits réservés.",
+        "disclaimer": "Léman Prestige Sàrl propose des services de mise en relation et d'accompagnement administratif. Toute activité soumise à autorisation est réalisée exclusivement par des partenaires agréés, le cas échéant."
+    },
+    "legal": {
+        "mentions": "Mentions légales",
+        "privacy": "Politique de confidentialité",
+        "cookies": "Politique des cookies"
+    },
+    "stickyCta": {
+        "call": "Appeler",
+        "whatsapp": "WhatsApp",
+        "devis": "Devis"
+    }
+}

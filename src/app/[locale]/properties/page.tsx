@@ -1,10 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import propertiesData from '@/data/properties.json';
 import { PropertyCard } from '@/components/molecules/PropertyCard';
 import PropertyFilters, { FilterValues } from '@/components/molecules/PropertyFilters';
+import { useSearchParams } from 'next/navigation';
 
 export default function PropertiesPage() {
     const t = useTranslations('properties');
@@ -16,6 +17,24 @@ export default function PropertiesPage() {
         budgetMin: '',
         budgetMax: '',
     });
+
+    const searchParams = useSearchParams();
+
+    useEffect(() => {
+        if (!searchParams) return;
+        const transaction = searchParams.get('transaction');
+        const location = searchParams.get('location');
+        const budgetMin = searchParams.get('budgetMin');
+        const budgetMax = searchParams.get('budgetMax');
+
+        setFilters(prev => ({
+            transaction: transaction ?? prev.transaction,
+            location: location ?? prev.location,
+            budgetMin: budgetMin ?? prev.budgetMin,
+            budgetMax: budgetMax ?? prev.budgetMax,
+        }));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     const parsePrice = (priceString: string): number => {
         // Remove 'CHF', '/ mois', commas, and whitespace
@@ -86,6 +105,7 @@ export default function PropertiesPage() {
                         <PropertyFilters
                             translations={filterTranslations}
                             onFilterChange={setFilters}
+                            initialValues={filters}
                         />
                     </div>
                 </div>

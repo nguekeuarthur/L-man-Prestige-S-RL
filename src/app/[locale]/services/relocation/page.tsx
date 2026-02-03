@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import Button from '@/components/atoms/Button';
 import styles from '../ServiceHero.module.css';
+import heroStyles from '@/app/components/sections/Hero.module.css';
 
 export default function RelocationServicePage() {
     const t = useTranslations('services.relocation');
@@ -51,9 +52,11 @@ export default function RelocationServicePage() {
             <section className={styles.heroSection}>
                 <div className={styles.heroOrb1}></div>
                 <div className={styles.heroOrb2}></div>
-                <div className={styles.heroContent}>
+                    <div className={styles.heroContent}>
                     <h1 className={styles.heroTitle}>{t('title')}</h1>
-                    <p className={styles.heroSubtitle}>{t('subtitle')}</p>
+                    <Link href={`/${locale}/services/relocation/recherche`}>
+                        <button className={heroStyles.heroCta}>Commencer ma recherche</button>
+                    </Link>
                 </div>
             </section>
 

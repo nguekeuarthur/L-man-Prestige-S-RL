@@ -42,7 +42,6 @@
         "nettoyage": "Professional Cleaning",
         "demenagement": "Moving & Logistics",
         "relocation": "Relocation",
-        "souslocation": "Sub-letting",
         "administratif": "Administrative Support",
         "assurances": "Insurance & Savings",
         "appartements": "Properties",
@@ -231,7 +230,7 @@
     "hero": {
         "title": "Léman Prestige SÀRL",
         "subtitle": "Real estate, moving and administrative support services in Geneva and the Lake Geneva region",
-        "cta": "Get a Quote"
+        "cta": "Contact Us"
     },
     "cta": {
         "call": "Call",
@@ -359,8 +358,9 @@
         "legalNotice": "Legal Notice",
         "contact": "Contact",
         "email": "Email",
-        "phone": "Phone",
         "address": "Address",
+        "hours": "Hours",
+        "zone": "Area",
         "followUs": "Follow Us",
         "copyright": "© {year} Léman Prestige SÀRL. All rights reserved.",
         "disclaimer": "Léman Prestige Sàrl offers referral and administrative support services. Any activity requiring authorization is conducted exclusively by authorized partners, where applicable."

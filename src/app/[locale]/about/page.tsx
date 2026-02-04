@@ -38,8 +38,8 @@ export default function AboutPage() {
     ];
 
     const stats = [
-        { number: '10+', label: 'Années d\'expérience' },
-        { number: '500+', label: 'Clients satisfaits' },
+        { number: '5', label: 'Années d\'expérience' },
+        { number: '350+', label: 'Clients satisfaits' },
         { number: '100%', label: 'Engagement qualité' },
         { number: '24/7', label: 'Support disponible' },
     ];
@@ -214,7 +214,7 @@ export default function AboutPage() {
                                 Votre partenaire de confiance pour l&apos;immobilier de prestige
                             </h2>
                             <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8" style={{ color: 'rgba(255,255,255,0.7)' }}>
-                                Chez Léman Prestige, nous croyons que chaque client mérite une attention personnalisée et un service d&apos;excellence. Notre équipe expérimentée vous accompagne à chaque étape de votre projet immobilier, avec discrétion et professionnalisme.
+                                Chez Léman Prestige, nous croyons que chaque client mérite une attention personnalisée et un service d&apos;excellence. Notre équipe expérimentée vous accompagne à chaque étape de votre projet, avec discrétion et professionnalisme.
                             </p>
                             
                             {/* Features List */}
@@ -252,7 +252,7 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                         {/* Email Card */}
                         <a 
-                            href="mailto:contact@lemanprestige.ch"
+                            href="mailto:info@lemanprestige.com"
                             className="group p-8 bg-white/[0.02] border border-white/5 rounded-2xl hover:border-[#C5A059]/30 transition-all duration-500 text-center"
                         >
                             <div className="w-16 h-16 mx-auto rounded-full bg-[#C5A059]/10 flex items-center justify-center text-[#C5A059] mb-6 group-hover:bg-[#C5A059]/20 group-hover:scale-110 transition-all duration-300">
@@ -261,22 +261,21 @@ export default function AboutPage() {
                                 </svg>
                             </div>
                             <h3 className="!text-white text-lg font-semibold mb-2 group-hover:text-[#C5A059] transition-colors" style={{ color: 'white' }}>Email</h3>
-                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>contact@lemanprestige.ch</p>
+                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>info@lemanprestige.com</p>
                         </a>
 
-                        {/* Phone Card */}
-                        <a 
-                            href="tel:+41XXXXXXXXX"
+                        {/* Hours Card */}
+                        <div 
                             className="group p-8 bg-white/[0.02] border border-white/5 rounded-2xl hover:border-[#C5A059]/30 transition-all duration-500 text-center"
                         >
                             <div className="w-16 h-16 mx-auto rounded-full bg-[#C5A059]/10 flex items-center justify-center text-[#C5A059] mb-6 group-hover:bg-[#C5A059]/20 group-hover:scale-110 transition-all duration-300">
                                 <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                             </div>
-                            <h3 className="!text-white text-lg font-semibold mb-2 group-hover:text-[#C5A059] transition-colors" style={{ color: 'white' }}>Téléphone</h3>
-                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>+41 XX XXX XX XX</p>
-                        </a>
+                            <h3 className="!text-white text-lg font-semibold mb-2 group-hover:text-[#C5A059] transition-colors" style={{ color: 'white' }}>Horaires</h3>
+                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>Lun–Ven 08:00–18:00</p>
+                        </div>
 
                         {/* Location Card */}
                         <div className="group p-8 bg-white/[0.02] border border-white/5 rounded-2xl hover:border-[#C5A059]/30 transition-all duration-500 text-center">
@@ -286,8 +285,8 @@ export default function AboutPage() {
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
                             </div>
-                            <h3 className="!text-white text-lg font-semibold mb-2 group-hover:text-[#C5A059] transition-colors" style={{ color: 'white' }}>Localisation</h3>
-                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>Genève • Lausanne • Montreux</p>
+                            <h3 className="!text-white text-lg font-semibold mb-2 group-hover:text-[#C5A059] transition-colors" style={{ color: 'white' }}>Adresse</h3>
+                            <p className="text-white/60 text-sm" style={{ color: 'rgba(255,255,255,0.6)' }}>Rue de la Servette 11<br/>1201 Genève</p>
                         </div>
                     </div>
 
@@ -295,7 +294,7 @@ export default function AboutPage() {
                     <div className="mt-12 p-8 sm:p-12 bg-gradient-to-r from-[#C5A059]/5 via-[#C5A059]/10 to-[#C5A059]/5 border border-[#C5A059]/20 rounded-2xl text-center">
                         <h3 className="!text-white text-xl sm:text-2xl font-bold mb-4" style={{ color: 'white' }}>Zone d&apos;intervention</h3>
                         <p className="text-white/70 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto" style={{ color: 'rgba(255,255,255,0.7)' }}>
-                            Nous intervenons dans toute la région lémanique : Genève, Lausanne, Nyon, Vaud, et toutes les communes environnantes. Notre équipe se déplace pour vous offrir un service personnalisé.
+                            Nous intervenons à Genève et dans toute la Suisse romande. Notre équipe se déplace pour vous offrir un service personnalisé.
                         </p>
                     </div>
                 </div>

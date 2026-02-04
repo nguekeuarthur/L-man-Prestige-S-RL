@@ -148,19 +148,8 @@
 .timelineMobile {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     position: relative;
-    padding-left: 2rem;
-}
-
-.timelineMobile::before {
-    content: '';
-    position: absolute;
-    left: 0.75rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(180deg, rgba(197, 160, 89, 0.3), transparent);
 }
 
 @media (min-width: 1024px) {
@@ -171,29 +160,37 @@
 
 .mobileStep {
     position: relative;
+    background: rgba(197, 160, 89, 0.05);
+    border: 1px solid rgba(197, 160, 89, 0.15);
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    transition: all 0.3s ease;
 }
 
-.mobileStep::before {
-    content: '';
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    background: #051622;
-    border: 2px solid #C5A059;
-    border-radius: 50%;
-    left: -2.75rem;
-    top: 0.25rem;
+.mobileStep:hover {
+    background: rgba(197, 160, 89, 0.1);
+    border-color: rgba(197, 160, 89, 0.3);
 }
 
 .mobileStepContent {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
+    align-items: flex-start;
 }
 
 .mobileStepNumber {
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+    background: rgba(197, 160, 89, 0.2);
+    border: 2px solid #C5A059;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #C5A059;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 .mobileStepTitle {

@@ -180,7 +180,7 @@ const Header: React.FC<HeaderProps> = ({ locale: propLocale }) => {
                         </div>
                         <div className="text-center pt-3 border-t border-white/5">
                             <p className="text-[#C5A059] text-[10px] uppercase tracking-[0.5em] font-light mb-2">Excellence</p>
-                            <p className="text-white/30 text-[9px] uppercase tracking-wider">Genève • Lausanne • Montreux</p>
+                            <p className="text-white/30 text-[9px] uppercase tracking-wider">Genève et toute la Suisse Romande</p>
                         </div>
                     </div>
                 </div>

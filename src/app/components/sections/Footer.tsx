@@ -75,15 +75,19 @@ export default function Footer() {
             <div className={styles.footerContact}>
               <p>
                 <span className={styles.contactLabel}>{t('footer.email')}:</span>
-                <a href="mailto:contact@lemanprestige.ch">contact@lemanprestige.ch</a>
-              </p>
-              <p>
-                <span className={styles.contactLabel}>{t('footer.phone')}:</span>
-                <a href="tel:+41XXXXXXXXX">+41 XX XXX XX XX</a>
+                <a href="mailto:info@lemanprestige.com">info@lemanprestige.com</a>
               </p>
               <p>
                 <span className={styles.contactLabel}>{t('footer.address')}:</span>
-                <span>Genève, Suisse</span>
+                <span>Rue de la Servette 11, 1201 Genève</span>
+              </p>
+              <p>
+                <span className={styles.contactLabel}>{t('footer.hours')}:</span>
+                <span>Lun–Ven 08:00–18:00</span>
+              </p>
+              <p>
+                <span className={styles.contactLabel}>{t('footer.zone')}:</span>
+                <span>Genève & Suisse romande</span>
               </p>
             </div>
 

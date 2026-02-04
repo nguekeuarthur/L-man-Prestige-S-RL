@@ -42,7 +42,6 @@
         "nettoyage": "Limpieza Profesional",
         "demenagement": "Mudanzas y Logística",
         "relocation": "Relocalización",
-        "souslocation": "Subarrendamiento",
         "administratif": "Apoyo Administrativo",
         "assurances": "Seguros y Previsión",
         "appartements": "Propiedades",
@@ -231,7 +230,7 @@
     "hero": {
         "title": "Léman Prestige SÀRL",
         "subtitle": "Servicios de bienes raíces, mudanzas y apoyo administrativo en Ginebra y la región del Lago Lemán",
-        "cta": "Solicitar Presupuesto"
+        "cta": "Contáctenos"
     },
     "cta": {
         "call": "Llamar",
@@ -359,8 +358,9 @@
         "legalNotice": "Aviso Legal",
         "contact": "Contacto",
         "email": "Correo Electrónico",
-        "phone": "Teléfono",
         "address": "Dirección",
+        "hours": "Horarios",
+        "zone": "Zona",
         "followUs": "Síguenos",
         "copyright": "© {year} Léman Prestige SÀRL. Todos los derechos reservados.",
         "disclaimer": "Léman Prestige Sàrl ofrece servicios de referencia y apoyo administrativo. Cualquier actividad que requiera autorización es realizada exclusivamente por asociados autorizados, en su caso."

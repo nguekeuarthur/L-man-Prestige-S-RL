@@ -85,6 +85,18 @@
   max-width: 90%;
 }
 
+.heroSubtitle {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.02em;
+  margin: -0.5rem 0 0.5rem 0;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeInUp 1s ease-out 0.2s both;
+}
+
 .heroCta {
   font-family: var(--font-body);
   font-size: clamp(1rem, 2vw, 1.25rem);

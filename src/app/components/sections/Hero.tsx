@@ -69,6 +69,7 @@ export default function Hero() {
       {/* Content Container */}
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>{t('hero.title')}</h1>
+        <p className={styles.heroSubtitle}>Travaux, ménage, relocation à Genève et Suisse romande</p>
         <button className={styles.heroCta}>{t('hero.cta')}</button>
       </div>
 

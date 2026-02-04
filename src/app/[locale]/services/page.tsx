@@ -39,13 +39,6 @@ export default function ServicesPage() {
             image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2670&auto=format&fit=crop"
         },
         {
-            id: 'souslocation',
-            title: t('souslocation.title'),
-            description: t('souslocation.subtitle'),
-            href: `/${locale}/services/souslocation`,
-            image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=2670&auto=format&fit=crop"
-        },
-        {
             id: 'administratif',
             title: t('administratif.title'),
             description: t('administratif.subtitle'),

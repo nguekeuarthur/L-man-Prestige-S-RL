@@ -42,7 +42,6 @@
         "nettoyage": "Nettoyage Professionnel",
         "demenagement": "Déménagement & Logistique",
         "relocation": "Relocation",
-        "souslocation": "Sous-location",
         "administratif": "Accompagnement Administratif",
         "assurances": "Assurances & Prévoyance",
         "appartements": "Appartements",
@@ -231,7 +230,7 @@
     "hero": {
         "title": "Léman Prestige SÀRL",
         "subtitle": "Services immobiliers, déménagement et accompagnement administratif à Genève et région lémanique",
-        "cta": "Demander un devis"
+        "cta": "Contactez-nous"
     },
     "cta": {
         "call": "Appeler",
@@ -359,8 +358,9 @@
         "legalNotice": "Mentions légales",
         "contact": "Contact",
         "email": "Email",
-        "phone": "Téléphone",
         "address": "Adresse",
+        "hours": "Horaires",
+        "zone": "Zone",
         "followUs": "Suivez-nous",
         "copyright": "© {year} Léman Prestige SÀRL. Tous droits réservés.",
         "disclaimer": "Léman Prestige Sàrl propose des services de mise en relation et d'accompagnement administratif. Toute activité soumise à autorisation est réalisée exclusivement par des partenaires agréés, le cas échéant."
